@@ -29,6 +29,13 @@ Burning tokens: Anyone should be able to burn tokens, that they own, that are no
 4. Then deploy the contract.
 5. Then verify it and run and deploy the contract on remix chaginng the environment variable to injected provider.
 
+### Functions
+1. Minting: The contract owner can mint new Degen tokens and allocate them to specific addresses.
+2. Burning: Users can burn their own Degen tokens to reduce the token supply.
+3. Transferring Tokens: Users can transfer Degen tokens to other addresses, provided they have a sufficient balance.
+4. Redeeming Items: Users can redeem Degen tokens for items available in the store. Each item has a specific redemption amount associated with it.
+5. Store Information: The contract provides a function to display the available items in the store.
+
 
 
 ## Authors
